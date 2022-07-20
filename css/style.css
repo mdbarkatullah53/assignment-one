@@ -1,5 +1,7 @@
 body{
     margin: 0;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 h1{
@@ -48,4 +50,56 @@ p{
     align-content: center;
     text-align: center;
     margin-top: 50px;
+}
+
+.today-donation{
+    height: 550px;
+}
+
+h3{
+    font-size: 50px;
+    text-align: center;
+}
+
+.todayp p{
+    font-size: 16px;
+    color: grey;
+
+    
+}
+
+.donate-tk{
+    display: flex;
+    font-size: 30px;
+    justify-content: space-around;
+    
+    
+}
+
+.money{
+    background-color: whitesmoke;
+    width: 140px;
+    color: rgb(78, 77, 77);
+    padding-left: 60px;
+    border-radius: 8px;
+    margin-top: 10px;
+    
+}
+
+.money-border{
+    background-color: rgb(245, 195, 186);
+    width: 140px;
+    color: tomato;
+    padding-left: 60px;
+    border-radius: 8px;
+    margin-top: 10px;
+    border: 3px solid tomato;
+}
+
+.amount p{ 
+    color: blue;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(180, 179, 179);
+    
+
 }
