@@ -123,13 +123,21 @@ h3{
     padding-top: 25px;
     border-radius: 5px;
 }
+.family h6{
+    color: gray;
+    font-size: 13px;
 
+}
 .shelter{
     background-color: rgb(255, 238, 238);
     width: 300px;
     padding-left: 25px;
     padding-top: 25px;
     border-radius: 5px;
+}
+.shelter h6{
+    color: gray;
+    font-size: 13px;
 }
 .education{
     background-color: rgb(255, 244, 214);
@@ -139,14 +147,17 @@ h3{
     border-radius: 5px;
     
 }
-
+.education h6{
+    color: gray;
+    font-size: 13px;
+}
 footer{
     height: 140px;
     background-color: rgb(11, 13, 23);
 }
 
 footer h4{
-    color: white;
+    color: tomato;
     font-family: 'Lobster', cursive;
     font-size: 30px;
     text-align: center;
